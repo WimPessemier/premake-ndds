@@ -3,6 +3,7 @@ To get started:
 * obtain the premake tool, which you can find here: http://industriousone.com/premake
 * write a premake4.lua file and declare your solution
 * use dofile to execute premake-ndds.lua
+* (optional) declare your own projects in premake4.lua and use the appropriate includedirs{} and links{} calls to link in ndds
 
 a simple premake4.lua file:
 ```
