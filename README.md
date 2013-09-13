@@ -18,7 +18,6 @@ project "MyProject"
 
 -- do appropriate client project settings using a relpath to the location of the ndds src root
 DoNddsSettings( "ndds" )
-
 ```
 
 This script was written to be dropped into the root folder of the source distribution.
