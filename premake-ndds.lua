@@ -88,12 +88,6 @@ project "ndds-advlog"
 	language "C"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	includedirs
@@ -130,12 +124,6 @@ project "ndds-cdr"
 	uuid "2792A29E-73C5-4D06-AA53-FE21E2952DD8"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -176,12 +164,6 @@ project "ndds-clock"
 	language "C"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	includedirs
@@ -218,12 +200,6 @@ project "ndds-commend"
 	uuid "083E6E58-B206-4341-A9BC-753C1C63EE02"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -277,12 +253,6 @@ project "ndds-core-version"
 	language "C"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	defines
@@ -324,12 +294,6 @@ project "ndds-disc"
 	uuid "68EE9FE9-D33D-40AD-B544-88C01908A4AE"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -378,12 +342,6 @@ project "ndds-dds-c"
 	uuid "1BE37AFE-AA0D-41FC-9132-2939301803AE"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -475,12 +433,6 @@ project "ndds-dds-cpp"
 	language "C++"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	defines
@@ -562,12 +514,6 @@ project "ndds-dl-driver"
 	language "C"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	includedirs
@@ -603,12 +549,6 @@ project "ndds-event"
 	uuid "44DF5AB9-D5C7-49BF-86D7-E11D5AA477DF"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -656,12 +596,6 @@ project "ndds-log"
 	language "C"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	includedirs
@@ -685,12 +619,6 @@ project "ndds-mig"
 	uuid "77BFF179-1ADD-4FAA-A95A-53C56E349B3D"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -729,12 +657,6 @@ project "ndds-netio"
 	uuid "49022DF5-9AD9-4DA5-83F1-DC1F59374C3B"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -775,12 +697,6 @@ project "ndds-osapi"
 	uuid "B0651314-FE57-41AC-B19A-DB81131B7554"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -843,12 +759,6 @@ project "ndds-pres"
 	language "C"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	includedirs
@@ -901,12 +811,6 @@ project "ndds-reda"
 	uuid "BA53A5E6-B961-4779-901F-1E7DB721BA68"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
@@ -971,12 +875,6 @@ project "ndds-transport"
 	language "C"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	includedirs
@@ -1023,12 +921,6 @@ project "ndds-writer-history"
 	language "C"
 	kind "StaticLib"
 
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
-
 	DoNddsInternalSettings()
 
 	includedirs
@@ -1070,12 +962,6 @@ project "ndds-xml"
 	uuid "8696BE90-DDB5-4F00-B6B6-95C6A145AF08"
 	language "C"
 	kind "StaticLib"
-
-	for i, config in ipairs( configurations() ) do
-		configuration( { config } )
-			targetdir( "../../" .. config .. "/plugins" )
-	end
-	configuration{}
 
 	DoNddsInternalSettings()
 
